@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// 인사말을 출력하는 함수
+void print_greeting(void) {
+    printf("Hello, Git and GitHub!\n");
+    printf("버전 관리 연습을 시작합니다.\n");
+}
+
+// 두 숫자를 더하는 함수
+int add_numbers(int a, int b) {
+    return a + b;
+}
+
+int main(void) {
+    print_greeting();
+    
+    int num1 = 10;
+    int num2 = 20;
+    int sum = add_numbers(num1, num2);
+    
+    printf("%d + %d = %d\n", num1, num2, sum);
+    
+    return 0;
+}
