@@ -2,6 +2,7 @@
 
 void master_function(void);
 int test(void);
+int test2(void);
 
 // 인사말을 출력하는 함수
 void print_greeting(void) {
