@@ -11,6 +11,10 @@ int add_numbers(int a, int b) {
     return a + b;
 }
 
+int minus_numbers(int a, int b) {
+    return a - b;
+}
+
 int main(void) {
     print_greeting();
     
