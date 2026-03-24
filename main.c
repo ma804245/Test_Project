@@ -31,12 +31,18 @@ int main(void) {
     printf("%d - %d = %d\n", num1, num2, min);
     
     test();
-
+    test2();
+    
     return 0;
 }
 
 
 int test(void) {
     printf("테스트 함수입니다.\n");
+    return 0;
+}
+
+int test2(void) {
+    printf("테스트2 함수입니다.\n");
     return 0;
 }
