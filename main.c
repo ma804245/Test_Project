@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void master_function(void);
+int test(void);
 
 // 인사말을 출력하는 함수
 void print_greeting(void) {
@@ -32,6 +33,20 @@ int main(void) {
 
     master_function();
     
+    test();
+    test2();
+    
+    return 0;
+}
+
+
+int test(void) {
+    printf("테스트 함수입니다.\n");
+    return 0;
+}
+
+int test2(void) {
+    printf("테스트2 함수입니다.\n");
     return 0;
 }
 
