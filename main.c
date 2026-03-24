@@ -56,3 +56,8 @@ int test2(void) {
 void master_function(void) {
     printf("This is the master branch function.\n");
 }
+
+
+void feature_function(void) {
+    printf("This is the feature branch function.\n");
+}
