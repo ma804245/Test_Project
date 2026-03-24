@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int test(void);
+
 // 인사말을 출력하는 함수
 void print_greeting(void) {
     printf("Hello, Git and GitHub!\n");
@@ -28,5 +30,13 @@ int main(void) {
     int min = minus_numbers(num1, num2);
     printf("%d - %d = %d\n", num1, num2, min);
     
+    test();
+
+    return 0;
+}
+
+
+int test(void) {
+    printf("테스트 함수입니다.\n");
     return 0;
 }
