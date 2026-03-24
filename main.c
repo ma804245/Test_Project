@@ -11,6 +11,7 @@ int add_numbers(int a, int b) {
     return a + b;
 }
 
+// 두 숫자를 빼는 함수
 int minus_numbers(int a, int b) {
     return a - b;
 }
@@ -23,6 +24,9 @@ int main(void) {
     int sum = add_numbers(num1, num2);
     
     printf("%d + %d = %d\n", num1, num2, sum);
+    
+    int min = minus_numbers(num1, num2);
+    printf("%d - %d = %d\n", num1, num2, min);
     
     return 0;
 }
