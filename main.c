@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void master_function(void);
+
 // 인사말을 출력하는 함수
 void print_greeting(void) {
     printf("Hello, Git and GitHub!\n");
@@ -27,6 +29,14 @@ int main(void) {
     
     int min = minus_numbers(num1, num2);
     printf("%d - %d = %d\n", num1, num2, min);
+
+    master_function();
     
     return 0;
+}
+
+
+
+void master_function(void) {
+    printf("This is the master branch function.\n");
 }
